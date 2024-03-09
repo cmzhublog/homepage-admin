@@ -1,0 +1,45 @@
+{
+	"head": {
+		"title": "Congming Zhu's Home Page",
+		"description": "Author:Congming Zhu,Category:Personal Home Page",
+		"favicon": "favicon.ico"
+	},
+	"intro": {
+		"title": "Congming Zhu's Home Page",
+		"subtitle": "<b>有志者自有千计万计，无志者只感千难万难</b>",
+		"enter": "回车",
+		"supportAuthor": true,
+		"background": true
+	},
+	"main": {
+		"name": "Congming Zhu",
+		"signature": "Code & Blog & Resume",
+		"avatar": {
+			"link": "assets/avatar.jpg",
+			"height": "100",
+			"width": "100"
+		},
+		"ul": {
+			"first": {
+				"href": "https://wiki.cmzhu.cn",
+				"icon": "bokeyuan",
+				"text": "Blog"
+			},
+			"second": {
+				"href": "https://resume.cmzhu.cn",
+				"icon": "xiaolian",
+				"text": "About"
+			},
+			"third": {
+				"href": "zhucongming20@gmail.com",
+				"icon": "email",
+				"text": "Email"
+			},
+			"fourth": {
+				"href": "https://github.com/cmzhublog",
+				"icon": "github",
+				"text": "Github"
+			}
+		}
+	}
+}

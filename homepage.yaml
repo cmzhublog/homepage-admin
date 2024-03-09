@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mkdocs
+  namespace: cmzhu
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: cmzhu.cn
+    http:
+      paths:
+      - backend:
+          service:
+            name: homepage
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+  tls:
+  - hosts:
+    - cmzhu.cn
+    secretName: homepage
