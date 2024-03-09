@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: homepage
-        image: dockerhub.cmzhu.cn:5000/cmzhu/homepage:v1 
+        image: dockerhub.cmzhu.cn:5000/cmzhu/homepage:v1.1 
         ports:
         - containerPort: 80
 ---
